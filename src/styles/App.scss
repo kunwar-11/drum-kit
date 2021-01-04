@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+.App {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: background 0.5s ease;
+    h1 {
+        padding: 2rem 0rem 2rem 0rem;
+    }
+    button {
+        transition: all 0.5s ease;
+    }
+}
+.dark {
+    color: white;
+    background-color: black
+}
+@import './Player';
